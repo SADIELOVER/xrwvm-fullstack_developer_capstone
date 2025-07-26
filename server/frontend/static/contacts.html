@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealerships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .nav {
+            background-color: #00ced1;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .nav h1 {
+            color: #333;
+            margin: 0 20px;
+            font-size: 1.5em;
+        }
+        .nav a {
+            color: #333;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-direction: column;
+        }
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .contact {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .contact div {
+            text-align: left;
+        }
+        .contact a {
+            color: #00ced1;
+            text-decoration: none;
+        }
+        .icon {
+            font-size: 2em;
+            color: #00ced1;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>Dealerships</h1>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="server/frontend/static/PICTURES/contactus.png" alt="Car Dealership">
+            <div class="contact">
+                <div>
+                    <div class="icon">👤</div>
+                    <p>Contact Customer Service</p>
+                    <p>support@bestcars.com</p>
+                </div>
+                <div>
+                    <p>Contact our National Advertising team</p>
+                    <p>NationalSales@bestcars.com</p>
+                    <p>Contact our Public Relations team</p>
+                    <p>PR@bestcars.com</p>
+                    <p>Contact the bestcars.com offices</p>
+                    <p>312-611-111</p>
+                    <p><a href="#">Become a bestcars.com car dealer</a></p>
+                    <p><a href="#">Visit growthbestcars.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
